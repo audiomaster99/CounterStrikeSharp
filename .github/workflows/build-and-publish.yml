@@ -11,7 +11,7 @@ on:
   push:
     paths-ignore:
       - "docfx/**"
-    branches: ["main"]
+    branches: ["fix/update-19388062"]
     tags:
       - "v*"
   pull_request:
